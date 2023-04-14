@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML_assignment</title>
+    <style>
+        ul{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        h1{
+            text-align: center;
+        }
+        table ,th,td{
+            border: 1px solid black;
+            
+            
+        }
+        form {
+    margin-left: 40%;
+    margin-right:40%;
+    width: 70%;
+}
+        table{
+            margin-left: auto;
+           margin-right: auto;
+        }
+        footer{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav >
+            <ul >
+                <li ><a href="">Home</a></li>
+                <li><a href="">About me</a></li>
+                <li><a href="">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <section id="about_me">
+        <div>
+            <h1>About me</h1>
+        </div>
+
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </section>
+        
+    <section id="contact_me">
+        <div>
+            <h1>Contact me</h1>
+        </div>
+
+        <div>
+            <form>
+                <label for="name">Name :</label>
+                <input type="text" id="name"><br><br>
+
+                <label for="msg">Message</label><br>
+                <textarea cols="30" rows="5" id="msg"></textarea><br><br>
+
+                <label for="phonenumber">Phone Number:</label>
+                <input type="tel" id="phonenumber"><br><br>
+
+                <label for="doa">Date Of Appointment:</label>
+                <input type="date" id="doa"><br><br>
+
+                <label for="contact">Contact via:</label>
+                whatsapp<input type="radio" id="cotact">
+                call<input type="radio" id="contact"><br><br>
+
+                <label for="timeslot">Time Slot:</label><br><br>
+                Morning 9 am to 11 am <input type="checkbox" id="timeslot"><br><br>
+                Afternoo 1 pm to 3 pm <input type="checkbox" id="timeslot"><br><br>
+                Evening 4 pm to 6 pm <input type="checkbox" id="timeslot"><br><br>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+        
+    </section>
+
+    <section id="projects">
+        <div>
+            <h1>Projects</h1>
+        </div>
+        
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Discription</th>
+                        <th>link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>ToDo list</td>
+                        <td>Lorem ipsum dolor sit amet</td>
+                        <td><a href="/">ToDo_list</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>ToDo list</td>
+                        <td>Lorem ipsum dolor sit amet</td>
+                        <td><a href="/">ToDo_list</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>ToDo list</td>
+                        <td>Lorem ipsum dolor sit amet</td>
+                        <td><a href="/">ToDo_list</a></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>ToDo list</td>
+                        <td>Lorem ipsum dolor sit amet</td>
+                        <td><a href="/">ToDo_list</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        
+    </section>
+    <hr>
+    <footer>
+        <h1>You can also contact me on :</h1>
+        <a href="/">LinkedIn</a>
+        <a href="/">GitHub</a>
+        <a href="/">Gmail</a>
+    </footer>
+</body>
+</html>
